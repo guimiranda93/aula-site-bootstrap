@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+	font-family: "Nunito", sans-serif;
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-brand span {
+	font-size: 30px;
+	font-weight: bold;
+	color: #012970;
+	margin-left: 5px;
+}
+
+.nav-link {
+	color: #012970 !important;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.nav-link.active {
+	color: #4154f1 !important;
+}
+
+.btn-primary {
+	background-color: #4154f1 !important;
+	border-color: #4154f1 !important;
+	font-weight: bold;
+}
+
+.banner {
+	width: 100%;
+	height: 100vh;
+	background-image: url("img/hero-bg.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.banner .banner-texto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.banner .banner-texto .btn {
+	align-self: flex-start;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: normal;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+
+.banner h2 {
+	font-size: 48px;
+	color: #012970;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.banner h3 {
+	font-size: 26px;
+	color: #444444;
+}
+
+.about h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #4154f1;
+}
+
+.about h4 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #012970;
+}
+
+.about p {
+	line-height: 24px;
+	font-size: 16px;
+}
+
+.about .content {
+	background-color: #f6f9ff;
+	padding: 40px;
+}
+
+.about .btn {
+	align-self: flex-start;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: normal;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+
+.our-values h3 {
+	color: #4154f1;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.our-values .card {
+	padding: 30px;
+}
+
+.our-values h4 {
+	font-size: 38px;
+	color: #012970;
+	font-weight: bold;
+	text-align: center;
+}
+
+.our-values img {
+	padding: 30px;
+}
+
+.our-values h5 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #012970;
+	text-align: center;
+}
+
+.our-values p {
+	line-height: 24px;
+	font-size: 17px;
+	color: #444444;
+	text-align: center;
+}
